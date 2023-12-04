@@ -16,12 +16,12 @@ struct RBChallengeApp: App {
     }
 }
 
-private extension RBChallengeApp {
-    func setupDependencyInjections() {
-        #if TEST
-        DependencyContainer.register(NetworkImplementation() as NetworkService)
-        #else
-        DependencyContainer.register(NetworkImplementation() as NetworkService)
-        #endif
-    }
-}
+//private extension RBChallengeApp {
+//    func setupDependencyInjections() {
+//        #if TEST
+//        DependencyContainer.register(NetworkImplementation() as NetworkService)
+//        #else
+//        DependencyContainer.register(NetworkImplementation() as NetworkService)
+//        #endif
+//    }
+//}

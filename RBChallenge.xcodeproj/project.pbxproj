@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EB6ADE62B1DCF4D00E0FFFF /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB6ADE52B1DCF4D00E0FFFF /* ListItemView.swift */; };
+		5EB6ADE82B1DDE1F00E0FFFF /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB6ADE72B1DDE1F00E0FFFF /* ListView.swift */; };
 		5EC843AF2B1CD04E00751BEC /* RBChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC843AE2B1CD04E00751BEC /* RBChallengeApp.swift */; };
 		5EC843B12B1CD04E00751BEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC843B02B1CD04E00751BEC /* ContentView.swift */; };
 		5EC843B32B1CD05000751BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC843B22B1CD05000751BEC /* Assets.xcassets */; };
@@ -25,8 +27,8 @@
 		5EF7A3E32B1DC50D004F87D5 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF7A3E02B1DC50D004F87D5 /* Info.swift */; };
 		5EF7A3E42B1DC50D004F87D5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF7A3E12B1DC50D004F87D5 /* User.swift */; };
 		5EF7A3E52B1DC50D004F87D5 /* UsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF7A3E22B1DC50D004F87D5 /* UsersResponse.swift */; };
-		5EF7A3E72B1DC541004F87D5 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF7A3E62B1DC541004F87D5 /* ContentViewModel.swift */; };
-		5EF7A3E92B1DC547004F87D5 /* ContentViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF7A3E82B1DC546004F87D5 /* ContentViewModelTests.swift */; };
+		5EF7A3E72B1DC541004F87D5 /* ListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF7A3E62B1DC541004F87D5 /* ListItemViewModel.swift */; };
+		5EF7A3E92B1DC547004F87D5 /* ListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF7A3E82B1DC546004F87D5 /* ListViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5EB6ADE52B1DCF4D00E0FFFF /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		5EB6ADE72B1DDE1F00E0FFFF /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		5EC843AB2B1CD04E00751BEC /* RBChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RBChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC843AE2B1CD04E00751BEC /* RBChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBChallengeApp.swift; sourceTree = "<group>"; };
 		5EC843B02B1CD04E00751BEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,8 +71,8 @@
 		5EF7A3E02B1DC50D004F87D5 /* Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		5EF7A3E12B1DC50D004F87D5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5EF7A3E22B1DC50D004F87D5 /* UsersResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersResponse.swift; sourceTree = "<group>"; };
-		5EF7A3E62B1DC541004F87D5 /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
-		5EF7A3E82B1DC546004F87D5 /* ContentViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModelTests.swift; sourceTree = "<group>"; };
+		5EF7A3E62B1DC541004F87D5 /* ListItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemViewModel.swift; sourceTree = "<group>"; };
+		5EF7A3E82B1DC546004F87D5 /* ListViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,10 +124,12 @@
 		5EC843AD2B1CD04E00751BEC /* RBChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				5EB6ADE72B1DDE1F00E0FFFF /* ListView.swift */,
+				5EB6ADE52B1DCF4D00E0FFFF /* ListItemView.swift */,
+				5EF7A3E62B1DC541004F87D5 /* ListItemViewModel.swift */,
 				5EF7A3DF2B1DC50D004F87D5 /* Model */,
 				5EF7A3CF2B1DC4FD004F87D5 /* Network */,
 				5EC843AE2B1CD04E00751BEC /* RBChallengeApp.swift */,
-				5EF7A3E62B1DC541004F87D5 /* ContentViewModel.swift */,
 				5EC843B02B1CD04E00751BEC /* ContentView.swift */,
 				5EC843B22B1CD05000751BEC /* Assets.xcassets */,
 				5EC843B42B1CD05000751BEC /* Preview Content */,
@@ -142,7 +148,7 @@
 		5EC843BE2B1CD05100751BEC /* RBChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				5EF7A3E82B1DC546004F87D5 /* ContentViewModelTests.swift */,
+				5EF7A3E82B1DC546004F87D5 /* ListViewModelTests.swift */,
 				5EC843BF2B1CD05100751BEC /* RBChallengeTests.swift */,
 			);
 			path = RBChallengeTests;
@@ -326,7 +332,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EF7A3DD2B1DC4FE004F87D5 /* NetworkRequest.swift in Sources */,
-				5EF7A3E72B1DC541004F87D5 /* ContentViewModel.swift in Sources */,
+				5EB6ADE62B1DCF4D00E0FFFF /* ListItemView.swift in Sources */,
+				5EB6ADE82B1DDE1F00E0FFFF /* ListView.swift in Sources */,
+				5EF7A3E72B1DC541004F87D5 /* ListItemViewModel.swift in Sources */,
 				5EF7A3DB2B1DC4FE004F87D5 /* Default.swift in Sources */,
 				5EF7A3E32B1DC50D004F87D5 /* Info.swift in Sources */,
 				5EF7A3DE2B1DC4FE004F87D5 /* Serializer.swift in Sources */,
@@ -345,7 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EF7A3E92B1DC547004F87D5 /* ContentViewModelTests.swift in Sources */,
+				5EF7A3E92B1DC547004F87D5 /* ListViewModelTests.swift in Sources */,
 				5EC843C02B1CD05100751BEC /* RBChallengeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

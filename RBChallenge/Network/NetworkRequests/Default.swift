@@ -10,7 +10,7 @@ import Alamofire
 
 struct DefaultRequest: NetworkRequest {
     typealias responseModel = UsersResponse
-    var path = "/api/"
+    var path = "/api"
     let page: Int
     let results: Int
     let seed = "abc"
